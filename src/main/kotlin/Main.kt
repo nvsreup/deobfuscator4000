@@ -184,7 +184,7 @@ fun main() {
 
             ImGui.pushStyleColor(ImGuiCol.ChildBg, frame.x, frame.y, frame.z, frame.w / 2f)
 
-            ImGui.begin("deobfuscator 4000", ImGuiWindowFlags.NoResize or ImGuiWindowFlags.NoDecoration)
+            ImGui.begin("deobfuscator 4000", ImGuiWindowFlags.NoResize or ImGuiWindowFlags.NoDecoration or ImGuiWindowFlags.NoMove)
 
             val w = intArrayOf(1)
             val h = intArrayOf(1)
